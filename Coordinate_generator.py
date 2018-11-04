@@ -1,7 +1,7 @@
 from pylab import *
 
 def Points(Xpos, Ypos, L, Color):
-	xbump = L*cos(pi*(1.0/3.0))
+	xbump = L*cos(pi*(1.0/3.1))
 	ybump = L*sin(pi*(1.0/3.0))
 	xref = [0,xbump, L+xbump, L+2*xbump, L+xbump, xbump]
 	yref = [ybump,2*ybump,2*ybump,ybump,0,0]
